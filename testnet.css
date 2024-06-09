@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 12px;
+  background-color: var(--ground-color-v2);
+  color: var(--primary-text-color);
+  overflow-y: auto;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
